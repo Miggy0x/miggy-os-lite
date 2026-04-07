@@ -1,105 +1,51 @@
 # Miggy OS Lite
 
-An AI agent that turns a single essay into a compounding social engine.
+An AI agent that takes a single essay and generates a 48-hour social distribution plan across brand and founder surfaces.
 
 ## What it does
 
-- Decomposes ideas into narrative wedges
-- Generates native social content (tweets, threads, scripts)
-- Builds a 48-hour distribution plan
-
-## Why this matters
-
-Most teams treat social as output.
-
-This system treats it as infrastructure.
+1. Breaks an essay into four narrative angles: thesis, contrarian, emotional hook, debate
+2. Writes native outputs for each: tweets, threads, founder posts, video scripts, reply bank
+3. Maps outputs to a sequenced distribution schedule
 
 ## Run locally
 
-pip install -r requirements.txt  
+```bash
+pip install -r requirements.txt
 streamlit run miggy_os_lite.py
+```
 
 ## Context
 
-Built as a proof-of-work submission for Every’s Head of Social role.
+Built as a proof-of-work submission for Every's Head of Social role.
 
-I built a lightweight AI agent that turns a single piece of content into a compounding social engine.
-
-Most teams treat social like output.
-I treat it like infrastructure.
-
-This agent takes an essay and:
-
-1. Decomposes it into narrative wedges (thesis, contrarian angle, emotional hook, debate angle)
-2. Generates native outputs (tweets, threads, founder posts, video scripts, reply bank)
-3. Builds a 48-hour distribution plan across brand and founder surfaces
-
-The goal is not more content — it’s better distribution, sharper ideas, and faster iteration.
+Most teams produce social content as output. This agent treats distribution as a system: one strong idea, decomposed and sequenced so it compounds instead of disappearing.
 
 ---
 
 ## Example
 
-Input:
-An essay about how AI changes work by shifting leverage toward people who can direct and critique models.
+**Input:** An essay arguing that AI shifts leverage toward people who can direct and critique models.
 
-Output (sample):
+**Tweet:**
+> AI shifts leverage to people who can direct it.
 
-Tweet:
-"AI isn’t replacing workers.
-It’s replacing people who can’t direct leverage."
+**Thread:**
+- Most people use AI for speed.
+- The best operators use it to redesign workflows.
+- The divide is linear thinking versus leveraged thinking.
 
-Thread:
-
-* Most people use AI for speed.
-* The best operators use it to redesign workflows.
-* That’s the real divide.
-* Not AI vs no AI — but linear vs leveraged thinking.
-
-Founder Post:
-"The biggest misconception about AI is that it replaces labor.
-
-It doesn’t.
-
-It reallocates leverage.
-
-People who can direct systems will outperform people who execute inside them."
+**Founder post:**
+> AI reallocates leverage. People who direct systems outperform people who execute inside them.
 
 ---
 
-## System Design
+## System design
 
-This is a simplified version of a system I call “Miggy OS for Social”:
-
+```
 input → decomposition → format mapping → distribution → signal capture → iteration
+```
 
-AI handles:
+Distillation, expansion, and pattern recognition run through the agent. Taste, judgment, and narrative direction stay with you.
 
-* distillation
-* expansion
-* pattern recognition
-
-Humans handle:
-
-* taste
-* judgment
-* narrative direction
-
----
-
-## Why this matters
-
-The bottleneck is no longer content creation.
-
-It’s:
-
-* idea clarity
-* distribution quality
-* feedback loops
-
-This system is designed to make every strong idea travel further and improve as it does.
-
----
-
-
-Happy to walk through the system or extend it further.
+Most content operations stall on idea clarity, distribution quality, and feedback loops. This system is built to close that gap.
