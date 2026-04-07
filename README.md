@@ -27,4 +27,4 @@ Then add your API key in the sidebar.
 
 ## Why this fits the role
 
-The Every repo asks applicants to submit one skill, workflow, or thing they built that proves fit for an AI-native Head of Social role. Their README says to apply by POSTing JSON with a `submission` field, and the job description emphasizes AI-powered, agent-native workflows, building systems that make social a growth channel, and playbooks/templates that empower the team. citeturn829129view0turn332842view0
+The Every repo asks applicants to submit one skill, workflow, or thing they built that proves fit for an AI-native Head of Social role. Their README says to apply by POSTing JSON with a `submission` field, and the job description emphasizes AI-powered, agent-native workflows, building systems that make social a growth channel, and playbooks/templates that empower the team.
